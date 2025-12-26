@@ -115,6 +115,9 @@
     <!-- 咸鱼大冲关（提取组件） -->
     <StudyChallengeCard v-show="activeSection === 'activity'" />
 
+	
+	<DeepSeaSimulatorCard v-show="activeSection === 'activity'" />
+
     <!-- 盐场（提取组件） -->
     <ClubWarrank v-if="activeSection === 'warrank'" />
 
@@ -145,6 +148,9 @@ import StarUpgradeCard from "./cards/StarUpgradeCard.vue";
 import HangUpStatusCard from "./cards/HangUpStatusCard.vue";
 import MonthlyTasksCard from "./cards/MonthlyTasksCard.vue";
 import StudyChallengeCard from "./cards/StudyChallengeCard.vue";
+
+import DeepSeaSimulatorCard from "./cards/DeepSeaSimulatorCard.vue";
+
 import ClubWarrank from './Club/ClubWarrank.vue';
 import TopRankList from './cards/TopRankListPageCard.vue';
 import TopClubList from './cards/TopClubListPageCard.vue';
